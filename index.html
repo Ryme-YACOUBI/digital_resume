@@ -1,0 +1,142 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="src/index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <link rel="stylesheet" href="index.css">
+        <title>Digital Resume</title> 
+    </head>
+    <body>
+        <main>
+           <section id="side">
+                <div class="profile-card">
+                    <img src="ryme.png" alt="Photo de Ryme Yacoubi">
+
+                    <h1>Ryme Yacoubi</h1>
+                    <h2>IT Engineering Student</h2>
+
+                    <p>Curious, motivated, and committed to continuous learning.</p>
+                </div>
+                
+                <div>
+                    <h2>CONTACT</h2>
+
+                    <div class="contact-item">
+                        <p>rymeyacoubi2025@gmail.com</p>
+                        <button class="copy-icon" type="button"
+                                onclick="copyText('rymeyacoubi2025@gmail.com')">
+                            <i class="fa-regular fa-copy"></i>
+                        </button>
+                    </div>
+
+                    <div class="contact-item">
+                        <p>+212637-756561</p>
+                        <button class="copy-icon" type="button"
+                                onclick="copyText('+212637-756561')">
+                    <i class="fa-regular fa-copy"></i>
+                </button>
+                </div>
+
+                <div class="contact-item">
+                    <p><a href="contact.html">Send me a message</a></p>
+                    <a class="copy-icon" href="contact.html" aria-label="Send me a message">
+                        <i class="fa-regular fa-paper-plane"></i>
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/ryme-yacoubi-a34618385/">LinkedIn</a>
+                    <span>.</span>
+                        <a href="https://github.com/Ryme-YACOUBI">Github</a>
+                    </div>
+                </div>
+        
+                <div>
+                    <h2>MY WORK PHILOSOPHY</h2>
+                    <p>Learn independently</p>
+                    <p>Stay consistent</p>
+                    <p>Improve continuously</p>
+                </div>
+
+
+
+                <div>
+                    <h2>CORE STRENGTHS</h2>
+                    <p>Analytical thinking</p>
+                    <p>Problem-solving</p>
+                    <p>Adaptability</p>
+                    <p>Continuous learning</p>
+                </div>
+
+                <div>
+                    <h2>LANGUAGES</h2>
+                    <p>Arabic — Native</p>
+                    <p>French — B2</p>
+                    <p>English — B2</p>
+                </div>
+                
+           </section>
+            
+           
+             
+        
+            <section id="main">
+
+                <!-- EDUCATION -->
+                <section class="resume-section" id="education">
+                    <div class="section-heading">
+                        <p class="eyebrow">01 — MY BACKGROUND</p>
+                        <h2>Education</h2>
+                        <p>My academic journey and engineering studies.</p>
+                    </div>
+                    <div id="education-cards" class="cards-grid"></div>
+                </section>
+
+                <!-- TECHNICAL SKILLS -->
+                <section class="resume-section" id="skills">
+                    <div class="section-heading">
+                        <p class="eyebrow">02 — WHAT I KNOW</p>
+                        <h2>Technical Skills</h2>
+                        <p>The programming languages and technologies I have learned.</p>
+                    </div>
+                    <div id="skills-cards" class="cards-grid"></div>
+                </section>
+
+                <!-- PROFESSIONAL EXPERIENCE -->
+                <section class="resume-section" id="experience">
+                    <div class="section-heading">
+                        <p class="eyebrow">03 — MY JOURNEY</p>
+                        <h2>Experience</h2>
+                        <p>My internships, professional experiences, and key learnings.</p>
+                    </div>
+                    <div id="experience-cards" class="cards-grid"></div>
+                </section>
+
+                <!-- PROJECTS -->
+                <section class="resume-section" id="projects">
+                    <div class="section-heading">
+                        <p class="eyebrow">04 — WHAT I BUILD</p>
+                        <h2>Projects</h2>
+                        <p>Practical projects through which I develop my technical skills.</p>
+                    </div>
+                    <div id="projects-cards" class="cards-grid"></div>
+                </section>
+
+                <!-- A LITTLE ABOUT ME -->
+                <section class="resume-section" id="about-me">
+                    <div class="section-heading">
+                        <p class="eyebrow">05 — BEYOND THE CODE</p>
+                        <h2>A Little About Me</h2>
+                        <p>A glimpse into my personality, interests, and the things that inspire me.</p>
+                    </div>
+                    <div id="about-me-cards" class="cards-grid"></div>
+                </section>
+
+                
+
+            </section>
+    <script type="module" src="/src/main.jsx"></script>
+    <script src="index.js"></script>
+    </body>
+</html>
